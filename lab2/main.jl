@@ -1,3 +1,5 @@
+module ProfTest
+
 function profile_test(n)
     for i = 1:n
         A = randn(100,100,20)
@@ -34,4 +36,6 @@ function test()
     slowOne()
     fastOne()
   end
+end
+
 end
